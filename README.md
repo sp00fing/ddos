@@ -1,4 +1,5 @@
 # DDoS Scripts and Methods
+![](index.png)
 L7/L4/L3 &amp; Game METHODS (USE ONLY FOR EDUCATIONAL PURPOSES!!!)
 
 
