@@ -1,0 +1,13 @@
+1. CompleteDNS API
+Create an account at completedns.com and verify first.
+Input your email and password on CompleteDNS_Login variable in cloudunflare.bash.
+
+2. Installation
+
+apt-get install curl dnsutils whois -y
+
+3. Command
+
+cd CloudUnflare
+
+bash cloudunflare.bash

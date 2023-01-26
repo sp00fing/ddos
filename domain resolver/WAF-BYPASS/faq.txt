@@ -1,0 +1,11 @@
+Installation:
+
+pkg update && pkg upgrade -y
+
+pkg install git
+
+pkg install php
+
+cd WAF-BYPASS
+
+php bypass-waf.php exa123mple.com
