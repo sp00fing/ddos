@@ -1,0 +1,16 @@
+{
+  "name": "Layer7-MultiBypass",
+  "version": "0.0.1",
+  "main": "method.js",
+  "author": "RootSec",
+  "contributors": [
+    {
+      "name": "RootSec",
+      "email": "microfix1252002@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "cloudscraper": "^4.6.0",
+    "request": "^2.88.2"
+  }
+}
