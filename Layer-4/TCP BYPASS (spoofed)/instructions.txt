@@ -3,3 +3,6 @@ WORK ONLY WITH SPOOFED SERVERS!
 chmod 777 tcpbypass
 
 ./tcpbypass {target-ip} {time-in-sec}
+
+This method was purchased by me for $1,000
+Use only for educational purposes!
