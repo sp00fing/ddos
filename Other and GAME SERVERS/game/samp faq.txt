@@ -1,0 +1,3 @@
+chmod 777 D-SAMP
+
+./D-SAMP {IP} dport={port} -{time in sec (ex. 60)}
