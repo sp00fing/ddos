@@ -1,0 +1,6 @@
+chmod 777 {scipt_name}
+
+./{script_name} {target_ip} {port (use 0 for rand)} {time in sec}
+
+
+WORK ONLY ON SPOOFED VPS!!!
