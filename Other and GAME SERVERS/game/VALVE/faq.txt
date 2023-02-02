@@ -1,0 +1,3 @@
+chmod 777 valve
+
+./valve ip port(0 for rand) time
