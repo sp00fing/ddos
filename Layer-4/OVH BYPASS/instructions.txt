@@ -1,4 +1,7 @@
-chmod 777 ovh
-./ovh IP PORT 4 -1 TIME (4 - THREADS, YOU CAN USE MORE IF YOU HAVE MORE CORES ON THE SERVER, TIME IN SECONDS)
+Permission Denied? 
+Here are 2 methods to fix this issue:
+1. sudo chmod u+x ovh | 2. sudo chmod 777 ovh
+Usage: ./ovh IP | Port | Time | Threads | Seconds |
 
-p.s. THAT WORKS ON AN IP SPOOFING SERVER (EVEN ON 150K PPS VDS)
+Note: You can use more if you have more cores on the server
+Warning: Works on an IP Spoofing Server | Even on 150K PPS VDS
