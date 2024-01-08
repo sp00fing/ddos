@@ -1,0 +1,10 @@
+WORK ONLY WITH SPOOFED SERVERS!
+
+chmod 777 synp
+
+./synp [IP] [port] [threads] [pps limiter] [time]
+
+Use only for educational purposes!
+
+
+https://check-host.net/check-report/1473614ak7e3 ^_^
