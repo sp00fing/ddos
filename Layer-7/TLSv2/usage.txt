@@ -1,0 +1,4 @@
+install nodejs on your server
+ulimit -n 1000000; ulimit -i unlimited; ulimit -l unlimited; ulimit -q unlimited; ulimit -s unlimited; ulimit -u unlimited; sysctl -w fs.inotify.max_user_watches=1000000
+
+node tls2.js target duration rateLimit Threads proxy_list
