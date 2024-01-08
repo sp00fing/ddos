@@ -1,7 +1,8 @@
 # DDoS Scripts and Methods
-![](index.png)
 
 L7/L4/L3 &amp; Game METHODS (USE ONLY FOR EDUCATIONAL PURPOSES!!!)
+
+<img width="1427" alt="image (3)" src="https://github.com/sp00fing/ddos/assets/123342934/1031858b-b9fc-450e-85b1-99a3bc89f7a7">
 
 
 This repo consists of various DDoS scripts, collected from internet. Layer-4 and Layer-7 levels can be targeted using these scripts.
