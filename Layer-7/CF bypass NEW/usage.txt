@@ -1,0 +1,4 @@
+install nodejs
+install chrome
+
+node j-script.js target duration rateLimit threads proxy_list
