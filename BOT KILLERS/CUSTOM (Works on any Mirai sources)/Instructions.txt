@@ -19,3 +19,4 @@ If you want to get the source code of this script, please send me a message by t
 !!!Warning!!!
 This should be done directly on the server with the Mirai botnet itself!
 
+2024 WORKS!!!
