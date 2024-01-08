@@ -1,0 +1,14 @@
+install nodejs
+install chrome on your server (debian/ubuntu/centos)
+install Xvfb
+
+----
+
+commands:
+
+Xvfb :11 -ac & export DISPLAY=:11
+ulimit -n 1000000; ulimit -i unlimited; ulimit -l unlimited; ulimit -q unlimited; ulimit -s unlimited; ulimit -u unlimited; sysctl -w fs.inotify.max_user_watches=1000000
+
+start script:
+
+node browser.js [target] [proxy] [duration] [rateLimit] [Threads]
