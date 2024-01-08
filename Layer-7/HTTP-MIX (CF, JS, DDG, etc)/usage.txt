@@ -1,0 +1,7 @@
+First install chrome on your server (debian/ubuntu/centos)
+
+chmod 777 httpm
+ulimit -n 1000000; ulimit -i unlimited; ulimit -l unlimited; ulimit -q unlimited; ulimit -s unlimited; ulimit -u unlimited; sysctl -w fs.inotify.max_user_watches=1000000
+
+./httpm <target url> <method (GET or HEAD or POST)> <number threads to use> <proxy list> <time> [manual ip (0 to disable)] [post parameters (%RANDOM% will be replaced with random shit)]
+
